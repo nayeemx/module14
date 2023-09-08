@@ -42,7 +42,10 @@ const Page = () => {
                 <div className="col-5 ">
                     <form onSubmit={Submit} className="card p-5">
                         <label className="form-label mt-3">User Verify Code</label>
-                        <input className="form-control" value={formValue.password} onChange={(e) => inputChange('password', e.target.value)} type="password" placeholder="XXXXXXX" />
+                        <input className="form-control" value={formValue.password}
+                            onChange={(e) => inputChange('password', e.target.value)}
+                            type="password"
+                            placeholder="XXXXXXX" />
                         <input className="btn btn-primary mt-3" type="submit" value="Login" />
                     </form>
                 </div>
